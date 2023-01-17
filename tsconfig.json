@@ -6,7 +6,9 @@
 
     /* Completeness */
     "skipLibCheck": true   ,
-    "jsx": "react"                             
+    "jsx": "react"     ,
+    "lib": ["es5", "es6", "dom"],
+    "types": ["@types/styled-components-react-native", "types/styled-components"],                        
   }
 
 }
